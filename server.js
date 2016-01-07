@@ -6,6 +6,6 @@ var app = express();
 app.use(express.static('www'));
 
 // register routes
-// require('./routes')(app);
+require('./routes')(app);
 
 var server = app.listen(1337);
