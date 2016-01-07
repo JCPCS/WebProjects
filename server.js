@@ -9,4 +9,6 @@ app.use(express.static('www'));
 // register routes
 require('./routes')(app);
 
-var server = app.listen(port);
+var server = app.listen(port, function(){
+    console.log('Listening on port ' + port);
+});
