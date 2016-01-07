@@ -1,0 +1,24 @@
+{
+  "name": "web-projects",
+  "version": "1.0.0",
+  "description": "Web projects for JCP CS course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCPCS/WebProjects.git"
+  },
+  "author": "Brandon R Barnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCPCS/WebProjects/issues"
+  },
+  "homepage": "https://github.com/JCPCS/WebProjects#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {}
+}
