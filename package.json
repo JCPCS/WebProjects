@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JCPCS/WebProjects#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "lodash": "^3.10.1",
     "path": "^0.12.7"
   },
   "devDependencies": {}
