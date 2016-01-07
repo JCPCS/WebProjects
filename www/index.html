@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JCP CS Projects</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- This is a CDN - use these for quick access to CSS/JS files so you don't have to add the files to your project every time -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+</head>
+
+<body ng-app="app">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/home/home.controller.js"></script>
+    
+    <div class="container" ng-controller="homeCtrl as vm">
+        <h1>Projects</h1>
+        
+        <ul>
+            <li ng-repeat="directory in vm.directories">
+                /<a ng-href="/{{directory}}">{{directory}}</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
